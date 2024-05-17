@@ -78,114 +78,114 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 70,
                   width: 20,
                   child: Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(left: 25),
+                        padding: EdgeInsets.only(left: 25),
                         child: Icon(Icons.add_circle_outline),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 20),
-                        child: const Text("Become an OYO Wizard"),
+                        padding: EdgeInsets.only(left: 20),
+                        child: Text("Become an OYO Wizard"),
                       )
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 70,
                   width: 20,
                   child: Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(left: 25),
+                        padding: EdgeInsets.only(left: 25),
                         child: Icon(Icons.wallet),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 20),
-                        child: const Text("View Wallets"),
+                        padding: EdgeInsets.only(left: 20),
+                        child: Text("View Wallets"),
                       )
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 70,
                   width: 20,
                   child: Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(left: 25),
+                        padding: EdgeInsets.only(left: 25),
                         child: Icon(Icons.directions_bike),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 20),
-                        child: const Text("Keep Going"),
+                        padding: EdgeInsets.only(left: 20),
+                        child: Text("Keep Going"),
                       )
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 70,
                   width: 20,
                   child: Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(left: 25),
+                        padding: EdgeInsets.only(left: 25),
                         child: Icon(Icons.save),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 20),
-                        child: const Text("View Saved OYOs"),
+                        padding: EdgeInsets.only(left: 20),
+                        child: Text("View Saved OYOs"),
                       )
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 70,
                   width: 20,
                   child: Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(left: 25),
+                        padding: EdgeInsets.only(left: 25),
                         child: Icon(Icons.help),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 20),
-                        child: const Text("Need help"),
+                        padding: EdgeInsets.only(left: 20),
+                        child: Text("Need help"),
                       )
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 70,
                   width: 20,
                   child: Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(left: 25),
+                        padding: EdgeInsets.only(left: 25),
                         child: Icon(Icons.language),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 20),
-                        child: const Text("Change Language"),
+                        padding: EdgeInsets.only(left: 20),
+                        child: Text("Change Language"),
                       )
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 70,
                   width: 20,
                   child: Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(left: 25),
+                        padding: EdgeInsets.only(left: 25),
                         child: Icon(Icons.privacy_tip),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 20),
-                        child: const Text("View Privacy policy"),
+                        padding: EdgeInsets.only(left: 20),
+                        child: Text("View Privacy policy"),
                       )
                     ],
                   ),
@@ -197,34 +197,34 @@ class _MyHomePageState extends State<MyHomePage> {
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 22),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 70,
                   width: 20,
                   child: Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(left: 25),
+                        padding: EdgeInsets.only(left: 25),
                         child: Icon(Icons.real_estate_agent),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 20),
-                        child: const Text("Travel agent partner"),
+                        padding: EdgeInsets.only(left: 20),
+                        child: Text("Travel agent partner"),
                       )
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 70,
                   width: 20,
                   child: Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(left: 25),
+                        padding: EdgeInsets.only(left: 25),
                         child: Icon(Icons.business_outlined),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 20),
-                        child: const Text("OYO for business"),
+                        padding: EdgeInsets.only(left: 20),
+                        child: Text("OYO for business"),
                       )
                     ],
                   ),
@@ -236,18 +236,18 @@ class _MyHomePageState extends State<MyHomePage> {
                     style: TextStyle(fontWeight: FontWeight.w900, fontSize: 22),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 70,
                   width: 20,
                   child: Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(left: 25),
+                        padding: EdgeInsets.only(left: 25),
                         child: Icon(Icons.home),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 20),
-                        child: const Text("List your property"),
+                        padding: EdgeInsets.only(left: 20),
+                        child: Text("List your property"),
                       )
                     ],
                   ),
@@ -528,10 +528,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                           ),
                         ),
-                        child: Row(
+                        child: const Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            const Text(
+                            Text(
                               "Sort",
                               style:
                                   TextStyle(color: Colors.black, fontSize: 18),
@@ -567,10 +567,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                           ),
                         ),
-                        child: Row(
+                        child: const Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            const Text(
+                            Text(
                               "Locality",
                               style:
                                   TextStyle(color: Colors.black, fontSize: 18),
@@ -606,10 +606,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                           ),
                         ),
-                        child: Row(
+                        child: const Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            const Text(
+                            Text(
                               "Price",
                               style:
                                   TextStyle(color: Colors.black, fontSize: 18),
@@ -645,10 +645,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                           ),
                         ),
-                        child: Row(
+                        child: const Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            const Text(
+                            Text(
                               "Trending",
                               style:
                                   TextStyle(color: Colors.black, fontSize: 18),
@@ -1092,15 +1092,15 @@ class _MyHomePageState extends State<MyHomePage> {
                                       width: 150,
                                       child: Image.asset("assets/this.png"),
                                     ),
-                                    Padding(
-                                      padding: const EdgeInsets.only(left: 5),
+                                    const Padding(
+                                      padding: EdgeInsets.only(left: 5),
                                       child: Text("OYOs ",
                                           style: TextStyle(
                                               fontSize: 24,
                                               color: Colors.black)),
                                     ),
-                                    Padding(
-                                      padding: const EdgeInsets.only(left: 5),
+                                    const Padding(
+                                      padding: EdgeInsets.only(left: 5),
                                       child: Text("Premium ",
                                           style: TextStyle(
                                               fontSize: 24,
