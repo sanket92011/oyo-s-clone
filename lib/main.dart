@@ -514,7 +514,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           showModalBottomSheet(
                             context: context,
                             builder: (BuildContext context) {
-                              return buildAreaSheet(context);
+                              return buildsheet(context);
                             },
                           );
                         },
@@ -592,7 +592,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           showModalBottomSheet(
                             context: context,
                             builder: (BuildContext context) {
-                              return buildAreaSheet(context);
+                              return buildPriceSheet(context);
                             },
                           );
                         },
@@ -631,7 +631,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           showModalBottomSheet(
                             context: context,
                             builder: (BuildContext context) {
-                              return buildAreaSheet(context);
+                              return buildTrendingSheet(context);
                             },
                           );
                         },
@@ -2323,61 +2323,6 @@ class SearchPage extends StatefulWidget {
 
 class _SearchPageState extends State<SearchPage> {
   TextEditingController _controller = TextEditingController();
-  List<String> _data = [
-    'Apple',
-    'Banana',
-    'Cherry',
-    'Date',
-    'Elderberry',
-    'Fig',
-    'Grape',
-    'Honeydew',
-    'Kiwi',
-    'Lemon',
-    'Mango',
-    'Orange',
-    'Papaya',
-    'Quince',
-    'Raspberry',
-    'Strawberry',
-    'Tomato',
-    'Ugli fruit',
-    'Vanilla bean',
-    'Watermelon',
-    'Ximenia',
-    'Yellow passionfruit',
-    'Zucchini'
-  ];
-  List<String> _filteredData = [];
-
-  @override
-  void initState() {
-    super.initState();
-    _filteredData.addAll(_data);
-  }
-
-  void _filterSearchResults(String query) {
-    List<String> searchList = [];
-    searchList.addAll(_data);
-    if (query.isNotEmpty) {
-      List<String> filteredList = [];
-      searchList.forEach((item) {
-        if (item.toLowerCase().contains(query.toLowerCase())) {
-          filteredList.add(item);
-        }
-      });
-      setState(() {
-        _filteredData.clear();
-        _filteredData.addAll(filteredList);
-      });
-      return;
-    } else {
-      setState(() {
-        _filteredData.clear();
-        _filteredData.addAll(_data);
-      });
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -2399,9 +2344,7 @@ class _SearchPageState extends State<SearchPage> {
               children: [
                 TextField(
                   controller: _controller,
-                  onChanged: (value) {
-                    _filterSearchResults(value);
-                  },
+                  onChanged: (value) {},
                   decoration: const InputDecoration(
                     labelText: 'Search',
                     hintText: 'Search...',
